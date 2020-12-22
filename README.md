@@ -11,10 +11,10 @@ https://myds.design.blog/2020/12/22/how-popular-are-starbucks-customer-offers/
 ## Key components
 The key components of this project are 
 1. The Jupyter notebook `Starbucks_Capstone_notebook.ipynb` containing the code that processes the Starbucks data set, and that runs the analyses to predict which offers customers are likely to complete.
-2. The Starbucks data set, which is the basis of the investigation. This comprises three json files: 
+2. The Starbucks data set, which is the basis of the investigation. These are held in the folder `data`. The data set comprises three json files: 
  - `portfolio.json` contains data on the portfolio of offers sent by Starbucks
  - `profile.json` contains demographic data for each of the customers in the data set
- - `transcript.json` contains a history of events, e.g. offers received, and transctions, related to each customer.
+ - `transcript.json` contains a history of events, e.g. offers received, and transctions, related to each customer. Note that due to upload size limitations, the file has been uploaded as a .zip file, and should be unzipped before use. See instructions below.
 
 ## Other files
 Processing of the Starbucks takes some time. Instead, you can simply load the already-processed data, which is contained in the following files:
@@ -26,7 +26,8 @@ Processing of the Starbucks takes some time. Instead, you can simply load the al
 The project was developed in Python 3.6.3, and requires Pandas version 0.23.3 or later.
 
 ## Instructions
-1. The Starbucks data set folder, "data", containing the three json files, should be downloaded to the same directory as `Starbucks_Capstone_notebook.ipynb`. 
+1. The Starbucks data set folder, `data`, containing three files, should be downloaded to the same directory as `Starbucks_Capstone_notebook.ipynb`. The `transcript.zip` folder must be unzipped into `data`.
+
 2. If, as recommended, the preprocessed files, `user_offer_mx`, `user_offer_rates_mx`, and `user_trans_mx` are used, you should ensure that these files are in the same directory as `Starbucks_Capstone_notebook.ipynb`. In the notebook, in the section immediately proceeding "1 Preprocessing", there is the following script:
 
 ```
